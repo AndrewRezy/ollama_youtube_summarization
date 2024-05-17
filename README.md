@@ -12,3 +12,8 @@ Easiest and quickest way to is build the container or download from docker hub (
 #### Run (make sure to update the URL for your ollama host)
 
 `docker run -dit -p 8501:8501 -e OLLAMA_HOST_URL="http://10.0.0.1:11434" ollama_youtube_summarization`
+
+### Environmental Variables
+| Name | Value |
+|------|-------|
+|OLLAMA_HOST_URL| Ollama endpoint URL: https://10.0.0.1:11484|
